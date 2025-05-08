@@ -1,9 +1,9 @@
 import Button from "./Button.jsx";
 
-export default function FormSplitBill(){
+export default function FormSplitBill({selectedFriend}){
     return(
         <form className='form-split-bill'>
-            <h2>Split a bill with X</h2>
+            <h2>Split a bill with {selectedFriend.name}</h2>
 
             <labe>💰Bill value</labe>
             <input type='number'/>
@@ -11,7 +11,7 @@ export default function FormSplitBill(){
             <labe>👤 Your expense</labe>
             <input type='number'/>
 
-            <labe>👬 X's expense</labe>
+            <labe>👬 {selectedFriend.name}'s expense</labe>
             <input disabled type='number'/>
 
             <labe>🤑 Who is paying the bill?</labe>
