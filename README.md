@@ -1,12 +1,54 @@
-# React + Vite
+# Split Bill App 💸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The Split Bill App is a React-based web application designed to simplify splitting bills among friends. Users can add friends, input bill amounts, and calculate each person's share. The app provides an intuitive interface for managing group expenses, making it easy to track and settle shared costs. 😊
 
-Currently, two official plugins are available:
+## Features
+- **Add Friends** 👥: Easily add friends to the bill-splitting group.
+- **Bill Splitting** 💰: Input the total bill amount and split it evenly or customize contributions.
+- **User-Friendly Interface** 🖥️: Built with React and styled with CSS for a responsive and modern design.
+- **Real-Time Calculations** ⚡: Instantly see each person's share as you input or modify data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React** ⚛️: For building dynamic and interactive UI components.
+- **CSS** 🎨: For custom and responsive styling.
+- **JavaScript (ES6+)** 📜: For modern and efficient scripting.
+- **Vite** 🚀: For fast development and optimized production builds.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js (v16 or higher) and npm installed on your machine. 🛠️
+- A modern web browser (e.g., Chrome, Firefox, Edge). 🌐
+
+### Installation
+1. Clone or download the repository to your local machine. 📂
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser and visit `http://localhost:5173` (or the port specified by Vite). 🎉
+
+### Usage
+1. **Add Friends** 👥: Use the input field to add friends to the group.
+2. **Enter Bill Details** ✍️: Input the total bill amount and any additional details (e.g., tax, tip).
+3. **Split the Bill** ➗: The app calculates each person's share automatically. Adjust contributions if needed.
+4. **View Results** 📊: See the breakdown of the bill and each friend's share in real-time.
+
+## File Structure
+- `src/`:
+    - `components/` 🧩: Reusable React components (e.g., FriendList, BillCalculator).
+    - `App.jsx` 📄: Main React component.
+    - `main.jsx` 📄: Entry point for the React app.
+- `index.html` 📜: The main HTML file.
+- `vite.config.js` ⚙️: Vite configuration file.
+
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository. 🍴
+2. Create a new branch for your feature or bug fix. 🌳
+3. Submit a pull request with a clear description of your changes. 📬
