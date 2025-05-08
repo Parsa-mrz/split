@@ -1,6 +1,6 @@
 import Button from "./Button.jsx";
 
-export default function FormSliptBill(){
+export default function FormSplitBill(){
     return(
         <form className='form-split-bill'>
             <h2>Split a bill with X</h2>
