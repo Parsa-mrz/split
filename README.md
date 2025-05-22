@@ -1,5 +1,8 @@
 # Split Bill App 💸
 
+## Demo:
+https://split-umber.vercel.app/
+
 ## Overview
 The Split Bill App is a React-based web application designed to simplify splitting bills among friends. Users can add friends, input bill amounts, and calculate each person's share. The app provides an intuitive interface for managing group expenses, making it easy to track and settle shared costs. 😊
 
